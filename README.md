@@ -64,12 +64,15 @@ npm run dev
 The app will be available at `http://localhost:5173/` (or another port depending on your Vite setup).
 
 ## 📸 Screenshots
+![WhatsApp Image 2025-06-29 at 20 13 04_0d4b1bd0](https://github.com/user-attachments/assets/982df0ec-3741-4dd4-b572-7279e50a0fab)
+![WhatsApp Image 2025-06-29 at 20 13 56_f4350d78](https://github.com/user-attachments/assets/a7ffdcfd-c301-4d27-a90e-f662004f3b96)
+![WhatsApp Image 2025-06-29 at 20 15 13_b6dd435e](https://github.com/user-attachments/assets/8be8e180-c9fc-4655-8af6-c55506672ee9)
+![WhatsApp Image 2025-06-29 at 20 16 27_bde650a4](https://github.com/user-attachments/assets/1f734b8b-9dca-4cb7-8cf0-3bdde9d0cc2f)
+![WhatsApp Image 2025-06-29 at 20 17 58_b98631a8](https://github.com/user-attachments/assets/9abcdd6b-6364-40fe-8050-98b1fa8d15f1)
 
 
 
-## 🌐 Live Demo
 
-> If deployed, add your Netlify/Vercel URL here.
 
 ## 🤝 Contributing
 
@@ -81,8 +84,8 @@ Feel free to fork the repo, open an issue, or submit a pull request.
 ## 🙋‍♂️ Author
 
 **Diptanil Sarkar**
-📧 [Email Me](mailto:your-email@example.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)
+📧 [Email Me](diptanilsarkar98@gmail.com)
+🔗 [LinkedIn](www.linkedin.com/in/diptanilsarkar)
 🐙 [GitHub](https://github.com/diptanil98)
 
 
