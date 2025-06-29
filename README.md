@@ -32,7 +32,6 @@ Dashboard/
 │   ├── components/
 │   ├── pages/
 │   ├── context/
-│   ├── assets/
 │   └── App.jsx
 ├── tailwind.config.js
 ├── package.json
