@@ -3,7 +3,7 @@
 
 A modern, responsive, and highly customizable Admin Dashboard built with **React.js** and **Tailwind CSS**. This dashboard is designed for seamless management and visualization of data with integrated tools like **Kanban Board**, **Calendar**, **Charts**, and **Dark/Light Theme Toggle**.
 
-![Dashboard Preview](https://github.com/diptanil98/Dashboard/assets/your-preview-image.png)
+
 
 ## 🚀 Features
 
