@@ -20,7 +20,7 @@ A modern, responsive, and highly customizable Admin Dashboard built with **React
 - **Frontend**: React.js, Tailwind CSS
 - **State Management**: React Context API
 - **Charts**: Chart.js
-- **Calendar**: FullCalendar or similar (based on implementation)
+
 
 ## 📂 Project Structure
 
