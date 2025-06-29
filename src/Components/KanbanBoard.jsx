@@ -3,14 +3,14 @@ import { useTheme } from '../context/ThemeContext';
 
 const initialTasks = {
   todo: [
-    { id: 1, title: 'Review math homework', student: 'John Doe', priority: 'high', dueDate: '2023-06-15' },
-    { id: 2, title: 'Prepare science project', student: 'Jane Smith', priority: 'medium', dueDate: '2023-06-18' },
+    { id: 1, title: 'Review math homework', student: 'Diptanil', priority: 'high', dueDate: '2023-06-15' },
+    { id: 2, title: 'Prepare science project', student: 'Arun', priority: 'medium', dueDate: '2023-06-18' },
   ],
   inProgress: [
-    { id: 3, title: 'Grade history essays', student: 'Mike Johnson', priority: 'low', dueDate: '2023-06-20' },
+    { id: 3, title: 'Grade history essays', student: 'Aastha', priority: 'low', dueDate: '2023-06-20' },
   ],
   done: [
-    { id: 4, title: 'Update attendance records', student: 'Sarah Williams', priority: 'medium', dueDate: '2023-06-10' },
+    { id: 4, title: 'Update attendance records', student: 'Raj', priority: 'medium', dueDate: '2023-06-10' },
   ],
 };
 
@@ -23,7 +23,7 @@ export const KanbanBoard = () => {
   const [dueDate, setDueDate] = useState('');
   const [expandedTask, setExpandedTask] = useState(null);
 
-  const students = ['John Doe', 'Jane Smith', 'Mike Johnson', 'Sarah Williams', 'New Student'];
+  const students = ['Tanush', 'John', 'Gaurav Singh', 'Udit Arora', 'New Student'];
 
   const onDragStart = (e, taskId, sourceColumn) => {
     e.dataTransfer.setData('taskId', taskId);

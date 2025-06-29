@@ -12,15 +12,15 @@ const Navbar = () => {
   `}
   style={{ height: '60px' }}
 >
-      {/* Logo/Title */}
+    
       <div className="flex items-center gap-2 font-bold text-lg">
         <span role="img" aria-label="logo">🎓</span>
         <span>College Admin</span>
       </div>
 
-      {/* Right Side Controls */}
+      
       <div className="flex items-center gap-4">
-        {/* Theme Toggle */}
+        
         <button
           onClick={toggleTheme}
           className="p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition"
@@ -28,9 +28,9 @@ const Navbar = () => {
         >
           {theme === 'dark' ? '🌞' : '🌙'}
         </button>
-        {/* User Avatar (optional) */}
+        
         <div className="w-8 h-8 rounded-full bg-blue-400 flex items-center justify-center text-white font-bold">
-          U
+          D
         </div>
       </div>
     </header>

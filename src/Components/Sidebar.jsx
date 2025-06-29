@@ -13,7 +13,6 @@ const Sidebar = () => {
     { path: '/Calender', icon: '📚', name: 'Calender' },
     { path: '/KanbanBoard', icon: '✅', name: 'Kanban Board    ' },
     { path: '/Attendance', icon: '📊', name: 'Attendance' },
-    { path: '/schedule', icon: '🗓️', name: 'Schedule' },
     { path: '/settings', icon: '⚙️', name: 'Settings' },
   ];
 
@@ -27,7 +26,6 @@ const Sidebar = () => {
     border-r border-gray-200 dark:border-gray-800
   `}
 >
-      {/* Logo and Collapse Button */}
       <div className="flex items-center justify-between px-4 py-5 border-b border-gray-200 dark:border-gray-800">
         <span className={`font-extrabold text-lg tracking-tight transition-all duration-300 ${collapsed ? 'hidden' : 'block'}`}>
           <span className="inline-block align-middle text-2xl mr-2">🎓</span>
@@ -49,7 +47,7 @@ const Sidebar = () => {
           </svg>
         </button>
       </div>
-      {/* Navigation */}
+      
       <nav className="flex-1 overflow-y-auto py-4">
         <ul>
           {navItems.map((item) => (
@@ -72,7 +70,7 @@ const Sidebar = () => {
           ))}
         </ul>
       </nav>
-      {/* Footer */}
+      
       <div className={`px-4 py-3 border-t border-gray-200 dark:border-gray-800 text-xs ${collapsed ? 'hidden' : 'block'}`}>
         &copy; {new Date().getFullYear()} College Admin
       </div>

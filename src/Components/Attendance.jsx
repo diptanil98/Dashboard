@@ -2,13 +2,12 @@ import { useTheme } from '../context/ThemeContext';
 import BarChart from '../components/BarChart';
 
 
-// Sample attendance data
 const attendanceData = [
-  { date: '2023-06-01', present: 85, absent: 15, branch: 'Computer Science' },
-  { date: '2023-06-02', present: 88, absent: 12, branch: 'Computer Science' },
-  { date: '2023-06-03', present: 82, absent: 18, branch: 'Computer Science' },
-  { date: '2023-06-04', present: 90, absent: 10, branch: 'Computer Science' },
-  { date: '2023-06-05', present: 87, absent: 13, branch: 'Computer Science' },
+  { date: '2025-06-01', present: 85, absent: 15, branch: 'Computer Science' },
+  { date: '2025-06-02', present: 88, absent: 12, branch: 'Computer Science' },
+  { date: '2025-06-03', present: 82, absent: 18, branch: 'Computer Science' },
+  { date: '2025-06-04', present: 90, absent: 10, branch: 'Computer Science' },
+  { date: '2025-06-05', present: 87, absent: 13, branch: 'Computer Science' },
 ];
 
 export const Attendance = () => {
@@ -19,7 +18,6 @@ export const Attendance = () => {
   return (
     <div className={`min-h-screen ${theme === 'light' ? 'bg-gray-50' : 'bg-gray-900'} p-6`}>
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
           <div>
             <h1 className="text-3xl font-bold text-text-light dark:text-text-dark">Attendance Management</h1>
@@ -36,8 +34,6 @@ export const Attendance = () => {
             </button>
           </div>
         </div>
-
-        {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           <div className={`p-6 rounded-xl shadow-lg ${theme === 'light' ? 'bg-white' : 'bg-gray-800'} border-l-4 border-green-500`}>
             <div className="flex justify-between items-start">
@@ -176,13 +172,12 @@ export const Attendance = () => {
                 ))}
               </ul>
               <button className="w-full mt-4 py-2 text-sm font-medium text-primary-light dark:text-primary-dark hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors">
-                View All Activity
               </button>
             </div>
           </div>
         </div>
 
-        {/* Attendance Table */}
+        
         <div className={`mt-8 rounded-xl overflow-hidden shadow-lg ${theme === 'light' ? 'bg-white' : 'bg-gray-800'}`}>
           <div className="p-6 border-b flex justify-between items-center">
             <h2 className="text-xl font-semibold text-text-light dark:text-text-dark">Attendance Records</h2>

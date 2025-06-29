@@ -110,7 +110,7 @@ export const AcademicCalendar = () => {
                 Cancel
               </button>
               <button
-                className="px-3 py-1 rounded bg-primary-light dark:bg-primary-dark text-white"
+                className="px-3 py-1 rounded bg-primary-light dark:bg-primary-dark text-black"
                 onClick={handleAddEvent}
               >
                 Add
